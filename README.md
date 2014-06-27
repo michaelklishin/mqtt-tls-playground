@@ -3,7 +3,7 @@
 This repository contains a bunch of scripts that estabilish MQTT-with-TLS connections
 to an MQTT broker running on `localhost:8883` using various clients.
 
-It is of no use to anyone but to people who work on MQTT brokers and/or MQTT-aware
+It is of no use to anyone but the people who work on MQTT brokers and/or MQTT-aware
 proxies.
 
 ## Available Examples
