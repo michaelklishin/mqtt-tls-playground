@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '1.9'
+  distributionUrl = 'http://services.gradle.org/distributions/gradle-1.9-all.zip'
+}
+
+repositories {
+    mavenCentral()
+
+    repositories {
+        maven {
+            url "https://repo.eclipse.org/content/repositories/paho-releases/"
+        }
+    }
+}
+
+dependencies {
+    compile group: "org.eclipse.paho", name: "mqtt-client", version: "0.4.0"
+}

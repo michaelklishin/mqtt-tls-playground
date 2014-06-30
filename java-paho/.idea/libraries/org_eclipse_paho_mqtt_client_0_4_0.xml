@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.eclipse.paho:mqtt-client:0.4.0" type="repository">
+    <properties maven-id="org.eclipse.paho:mqtt-client:0.4.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/paho/mqtt-client/0.4.0/mqtt-client-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
